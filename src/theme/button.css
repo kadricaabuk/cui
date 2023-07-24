@@ -1,0 +1,41 @@
+.CUI_Button {
+    cursor: var(--cui-button-cursor);
+    padding: var(--cui-button-padding);
+    border: var(--cui-button-border);
+    outline: var(--cui-button-outline);
+    border-radius: var(--cui-border-radius);
+    width: var(--cui-button-width);
+    height: var(--cui-button-height);
+    font-size: var(--cui-button-font-size);
+    font-weight: var(--cui-button-font-weight);
+    margin: var(--cui-button-margin);
+}
+
+.CUI_Button.primary {
+    background-color: var(--cui-primary-button-background);
+    color: var(--cui-primary-button-text-color);
+}
+
+.CUI_Button.secondary {
+    background-color: var(--cui-secondary-button-background);
+    color: var(--cui-secondary-button-text-color);
+}
+
+.CUI_Button.outline {
+    background-color: var(--cui-outline-button-background);
+    color: var(--cui-outline-button-text-color);
+    border: var(--cui-outline-button-border);
+}
+
+.CUI_Button.primary:hover {
+    background-color: var(--cui-primary-button-hover-color);
+}
+
+.CUI_Button.secondary:hover {
+    background-color: var(--cui-secondary-button-hover-color);
+}
+
+.CUI_Button.outline:hover {
+    background-color: var(--cui-outline-button-hover-background);
+    color: var(--cui-outline-button-hover-color);
+}

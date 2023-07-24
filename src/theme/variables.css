@@ -1,0 +1,51 @@
+:root {
+    --cui-primary-color: red;
+    --cui-secondary-color: pink;
+    --cui-white: white;
+    --cui-transparent: transparent;
+    --cui-error: #EC4E2C;
+    --cui-info: #4A90E2;
+    --cui-success: #38B35A;
+    --cui-warning: #FBA63C;
+
+    --cui-border-radius: 8px;
+    --cui-primary-border: 1px solid var(--cui-primary-color);
+    --cui-secondary-border: 1px solid var(--cui-secondary-color);
+    
+    /* ALERT */
+    --cui-alert-font-size: 16px;
+    --cui-alert-font-weight: 600;
+    --cui-alert-padding: 0px 10px;
+    --cui-alert-margin: 8px 0px;
+
+    /* BUTTON */
+    --cui-button-cursor: pointer;
+    --cui-button-padding: 8px 32px;
+    --cui-button-margin: 4px;
+    --cui-button-border: none;
+    --cui-button-outline: none;
+    --cui-button-width: 150px;
+    --cui-button-height: 40px;
+    --cui-button-font-size: 16px;
+    --cui-button-font-weight: 600;
+
+    /* PRIMARY BUTTON */
+    --cui-primary-button-background: var(--cui-primary-color);
+    --cui-primary-button-text-color: var(--cui-white);
+    --cui-primary-button-hover-color: var(--cui-secondary-color);
+
+    /* SECONDARY BUTTON */
+    --cui-secondary-button-background: var(--cui-secondary-color);
+    --cui-secondary-button-hover-color: var(--cui-primary-color);
+    --cui-secondary-button-text-color: var(--cui-white);
+    
+    /* OUTLINE BUTTON */
+    --cui-outline-button-background: var(--cui-transparent);
+    --cui-outline-button-hover-background: var(--cui-secondary-color);
+    --cui-outline-button-text-color: var(--cui-primary-color);
+    --cui-outline-button-border: var(--cui-primary-border);
+    --cui-outline-button-hover-color: var(--cui-white);
+
+
+
+}

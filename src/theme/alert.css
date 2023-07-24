@@ -1,0 +1,38 @@
+.CUI_Alert {
+    width: 50%;
+    height: 60px;
+    display: none;
+    color: var(--cui-white);
+    font-size: var(--cui-alert-font-size);
+    font-weight: var(--cui-alert-font-weight);
+    border-radius: var(--cui-border-radius);
+    padding: var(--cui-alert-padding);
+    margin: var(--cui-alert-margin);
+}
+.CUI_Alert.active{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CUI_Alert>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.CUI_Alert .CloseButton {
+    background-color: var(--cui-transparent);
+    border: var(--cui-button-border);
+    outline: var(--cui-button-outline);
+}
+.CUI_Alert.error {
+    background-color: var(--cui-error);
+}
+.CUI_Alert.success {
+    background-color: var(--cui-success);
+}
+.CUI_Alert.info {
+    background-color: var(--cui-info);
+}
+.CUI_Alert.warning {
+    background-color: var(--cui-warning);
+}
